@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div{
+    margin-top: 80px;
+}
+
+table {
+    font-family:Arial,sans-sherif;
+    font-size:16px;
+}
+
+td, th
+{
+border:1px solid black;
+}
+
+.tab1{
+    border-collapse:collapse;
+}
+
+.tab1 th
+{
+background-color:green;
+color:white;
+}
+
+.left-top {
+    text-align: left;
+    vertical-align: top;
+}
+.center-middle {
+    text-align: center;
+    vertical-align: middle;
+}
+.right-bottom {
+    text-align: right;
+    vertical-align: bottom;
+}
+
+.tab2 th {
+    background-color:green;
+    color:white;
+}
+
+.tab3 {
+    border-collapse:collapse;
+}
+
+.tab3 th {
+    width: 200px;
+    background-color:orange;
+    color:blue;
+}
